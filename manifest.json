@@ -1,0 +1,18 @@
+{
+  "name": "Link Target",
+  "description": "A Chrome Extension that tells you whether the link you are hovering will open in the same tab or a new tab",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

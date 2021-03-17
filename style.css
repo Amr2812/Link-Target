@@ -1,0 +1,11 @@
+#link-target-wrapper {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  z-index: 2147483647; /* Maximum Z-index */
+  min-width: 100px;
+  padding: 10px;
+  text-align: center;
+  color: #d8d1d1;
+  border-radius: 20px;
+}
