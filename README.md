@@ -9,5 +9,6 @@ A Chrome and Firefox Extension that tells you whether the link you are hovering 
 1. Enable Developer Mode by clicking the toggle switch next to Developer mode.
 1. Click the Load unpacked button and select the extension directory.
 1. Refresh Your Browser if needed
+1. Star the Project
 
 ![Demo](https://developer-chrome-com.imgix.net/image/BrQidfK9jaQyIHwdw91aVpkPiib2/iYdLKFsJ1KSVGLhbLRvS.png?auto=format&w=650)
