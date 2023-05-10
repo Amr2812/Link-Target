@@ -12,17 +12,11 @@ for (let i = 0; i < allLinks.length; i++) {
       msg = "Same Tab";
       bgColor = "rgb(0 149 255 / 90%)";
     }
+
     let wrapper = document.createElement("strong");
-
     wrapper.id = "link-target-wrapper";
-
     wrapper.innerText = msg;
-
-    if (bgColor) {
-      wrapper.style.backgroundColor = bgColor;
-    } else {
-      wrapper.style.backgroundColor = bgColor;
-    }
+    wrapper.style.backgroundColor = bgColor;
 
     document.body.prepend(wrapper);
   });
